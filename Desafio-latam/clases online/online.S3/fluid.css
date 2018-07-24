@@ -1,0 +1,14 @@
+.header{
+
+}
+
+.left{
+    float: left;
+    width: 20%;
+    background-color: red;
+}
+
+.main{
+    margin-left: 20%;
+    background-color: yellow;
+}

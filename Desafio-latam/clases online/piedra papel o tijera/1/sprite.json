@@ -1,0 +1,30 @@
+{
+	"objName": "1",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 0,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "disfraz1",
+			"baseLayerID": 0,
+			"baseLayerMD5": "6fda8f4da472c9800ccf682cdbe1ebf9.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 0,
+			"rotationCenterY": 49
+		}],
+	"currentCostumeIndex": 0,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1.5000000000000002,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}

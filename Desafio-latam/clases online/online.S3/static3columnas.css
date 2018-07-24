@@ -1,0 +1,41 @@
+body{
+    margin: 0px auto;
+    width: 960px;
+    background-color:green;
+}
+
+.header{
+    height: 50px;
+    background-color: yellow;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.left{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red;
+    display: table-cell;
+}
+
+.main{
+    margin-left: 250px;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    display: table-cell;
+    background-color: gray;
+}
+
+.rigth{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red;
+    display: table-cell;
+}

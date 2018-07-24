@@ -1,0 +1,30 @@
+{
+	"objName": "piedra",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 0,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "003-mountain",
+			"baseLayerID": 0,
+			"baseLayerMD5": "2d54963d3b6aed0203d8b7f0b857df38.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 324,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 0.20000000000000015,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    @media (min-width: 400px) and (max-width:600px){
+        body::after{
+            content: "Pequeño";
+            background-color: green;
+        }
+    }
+    @media (min-width: 601px) and (max-width:800px){
+        body::after{
+            content: "Mediano";
+            background-color:yellow;
+        }
+    }
+    @media (min-width: 801px){
+        body::after{
+            content: "G rande";
+            background-color: red;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

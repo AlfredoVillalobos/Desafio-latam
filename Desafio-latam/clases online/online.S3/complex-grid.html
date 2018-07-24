@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .row{
+            clear: both;
+        }
+        .img.responsive{
+            width: 100%;
+        }
+
+        .col-md-1, .col-md-2
+        .col-sm-1, .col-sm-2{
+            float: left;
+        }
+        @media (max-width:480px){
+        .col-sm-1, .col-sm-offset-1{
+            margin-left: 10%;
+        }
+
+        .col-sm-1{
+            width: 10%
+        }
+
+        .col-sm-2{
+            width: 20%
+        }
+    }
+    @media (min-width: 768px){
+        .col-md-1, .col-md-offset-1{
+            margin-left: 10%;
+        }
+
+        .col-md-1{
+            width: 10%
+        }
+
+        .col-md-2{
+            width: 20%
+        }
+
+    }
+
+
+    
+    
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-1; col-sm-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo error, deleniti, dolorum repellendus iure facere iusto corporis veritatis doloribus officiis. Maiores sed natus doloribus vel repudiandae nulla, aspernatur sit!
+        </div>
+        
+        <img src="/home/alfredo/Documentos/clases online/online.S3/imglatam.png" alt="" class="img.responsive">
+        <div class="col-md-2; col-sm-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi saepe quas ipsa, blanditiis dolorum quod unde esse sequi voluptas tempore veritatis, alias culpa ducimus beatae dolor rerum minus. Autem, nihil.
+        </div>
+
+    </div>
+</body>
+</html>
